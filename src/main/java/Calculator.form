@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="606" height="576"/>
+    </constraints>
+    <properties>
+      <background color="-16740184"/>
+      <enabled value="true"/>
+      <font name="Unispace" size="14" style="1"/>
+      <preferredSize width="400" height="550"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8b8de" class="javax.swing.JTextField" binding="textDisplay">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+        </properties>
+      </component>
+      <component id="36d62" class="javax.swing.JButton" binding="btnMultiplicativeInverse">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="1/x"/>
+        </properties>
+      </component>
+      <component id="1e73f" class="javax.swing.JButton" binding="btnX3">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="x^3"/>
+        </properties>
+      </component>
+      <component id="bf5f4" class="javax.swing.JButton" binding="btnEX">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="e^x"/>
+        </properties>
+      </component>
+      <component id="d09ae" class="javax.swing.JButton" binding="btnSquareRoot">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="√"/>
+        </properties>
+      </component>
+      <component id="d67ae" class="javax.swing.JButton" binding="btnX2">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="x^2"/>
+        </properties>
+      </component>
+      <component id="a6589" class="javax.swing.JButton" binding="btnEquals">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14142782"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-6624547"/>
+          <hideActionText value="false"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="8381d" class="javax.swing.JButton" binding="btnZero">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9b4df" class="javax.swing.JButton" binding="btnLogarithm">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="log"/>
+        </properties>
+      </component>
+      <component id="69d5e" class="javax.swing.JButton" binding="btnDegree">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="deg"/>
+        </properties>
+      </component>
+      <component id="cfa" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14142782"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-6624547"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="a17a7" class="javax.swing.JButton" binding="btnSeven">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="200ef" class="javax.swing.JButton" binding="btnFour">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="d96a8" class="javax.swing.JButton" binding="btnOne">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="3e8e8" class="javax.swing.JButton" binding="btnPoint">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="927c7" class="javax.swing.JButton" binding="btnTangent">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="tan"/>
+        </properties>
+      </component>
+      <component id="79c1b" class="javax.swing.JButton" binding="btnPlus">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="1a8b4" class="javax.swing.JButton" binding="btnMinus">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="8d21a" class="javax.swing.JButton" binding="btnMultiply">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="e75a6" class="javax.swing.JButton" binding="btnDivide">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="211ab" class="javax.swing.JButton" binding="btnSine">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="sin"/>
+        </properties>
+      </component>
+      <component id="d71a0" class="javax.swing.JButton" binding="btnBackspace">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14142782"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-6624547"/>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="6a2f" class="javax.swing.JButton" binding="btnEight">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="9c4e7" class="javax.swing.JButton" binding="btnFive">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="c7f3b" class="javax.swing.JButton" binding="btnTwo">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="2a783" class="javax.swing.JButton" binding="btnRemainder">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="236f" class="javax.swing.JButton" binding="btnCosine">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="cos"/>
+        </properties>
+      </component>
+      <component id="22ad1" class="javax.swing.JButton" binding="btnX">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="x!"/>
+        </properties>
+      </component>
+      <component id="79a7d" class="javax.swing.JButton" binding="btnNine">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="7a7b" class="javax.swing.JButton" binding="btnSix">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="ffb64" class="javax.swing.JButton" binding="btnThree">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6624547"/>
+          <enabled value="false"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-14613195"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="eb6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Unispace" size="22" style="1"/>
+          <foreground color="-8196355"/>
+          <text value="SCIENTIFIC CALCULATOR"/>
+        </properties>
+      </component>
+      <component id="d1b51" class="javax.swing.JRadioButton" binding="ONRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740184"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-8196355"/>
+          <text value="ON"/>
+        </properties>
+      </component>
+      <component id="278a3" class="javax.swing.JRadioButton" binding="OFFRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740184"/>
+          <enabled value="true"/>
+          <font name="Unispace" size="14" style="1"/>
+          <foreground color="-8196355"/>
+          <horizontalAlignment value="0"/>
+          <selected value="true"/>
+          <text value="OFF"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="d1b51"/>
+      <member id="278a3"/>
+    </group>
+  </buttonGroups>
+</form>
